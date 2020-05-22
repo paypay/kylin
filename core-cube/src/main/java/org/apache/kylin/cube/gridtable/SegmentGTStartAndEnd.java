@@ -20,7 +20,7 @@ package org.apache.kylin.cube.gridtable;
 
 import java.nio.ByteBuffer;
 
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.kylin.common.util.ByteArray;
 import org.apache.kylin.common.util.DateFormat;
 import org.apache.kylin.common.util.Pair;

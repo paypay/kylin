@@ -55,7 +55,7 @@ import org.apache.calcite.prepare.CalcitePrepareImpl;
 import org.apache.calcite.prepare.OnlyPrepareEarlyAbortException;
 import org.apache.calcite.rel.type.RelDataTypeField;
 import org.apache.calcite.sql.type.BasicSqlType;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.apache.commons.pool2.BaseKeyedPooledObjectFactory;
 import org.apache.commons.pool2.PooledObject;

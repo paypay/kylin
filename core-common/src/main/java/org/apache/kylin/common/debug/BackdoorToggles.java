@@ -25,7 +25,7 @@ import java.util.Properties;
 import java.util.Set;
 
 import com.google.common.collect.Sets;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.kylin.common.threadlocal.InternalThreadLocal;
 import org.apache.kylin.common.util.Pair;
 

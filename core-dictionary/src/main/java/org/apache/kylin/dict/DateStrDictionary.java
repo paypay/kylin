@@ -28,7 +28,7 @@ import java.io.IOException;
 import java.io.PrintStream;
 import java.util.Date;
 
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.kylin.common.util.Dictionary;
 import org.apache.kylin.dimension.DateDimEnc;
 

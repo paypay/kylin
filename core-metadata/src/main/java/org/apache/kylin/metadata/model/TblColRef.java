@@ -25,7 +25,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.function.Function;
 
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.kylin.metadata.datatype.DataType;
 import org.apache.kylin.metadata.expression.TupleExpression;
 

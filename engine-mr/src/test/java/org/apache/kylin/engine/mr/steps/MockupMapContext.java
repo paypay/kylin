@@ -21,7 +21,7 @@ package org.apache.kylin.engine.mr.steps;
 import java.io.IOException;
 import java.net.URI;
 
-import org.apache.commons.lang.NotImplementedException;
+import org.apache.commons.lang3.NotImplementedException;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configuration.IntegerRanges;
 import org.apache.hadoop.fs.Path;
@@ -67,17 +67,17 @@ public class MockupMapContext implements MapContext {
 
     @Override
     public boolean nextKeyValue() throws IOException, InterruptedException {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public Object getCurrentKey() throws IOException, InterruptedException {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public Object getCurrentValue() throws IOException, InterruptedException {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
@@ -91,36 +91,36 @@ public class MockupMapContext implements MapContext {
 
     @Override
     public OutputCommitter getOutputCommitter() {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public TaskAttemptID getTaskAttemptID() {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public String getStatus() {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public void setStatus(String msg) {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     public float getProgress() {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public Counter getCounter(Enum<?> counterName) {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public Counter getCounter(String groupName, String counterName) {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
@@ -130,193 +130,193 @@ public class MockupMapContext implements MapContext {
 
     @Override
     public Credentials getCredentials() {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public JobID getJobID() {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public int getNumReduceTasks() {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public Path getWorkingDirectory() throws IOException {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public Class<?> getOutputKeyClass() {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public Class<?> getOutputValueClass() {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public Class<?> getMapOutputKeyClass() {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public Class<?> getMapOutputValueClass() {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public String getJobName() {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public Class<? extends InputFormat<?, ?>> getInputFormatClass() throws ClassNotFoundException {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public Class<? extends Mapper<?, ?, ?, ?>> getMapperClass() throws ClassNotFoundException {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public Class<? extends Reducer<?, ?, ?, ?>> getCombinerClass() throws ClassNotFoundException {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public Class<? extends Reducer<?, ?, ?, ?>> getReducerClass() throws ClassNotFoundException {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public Class<? extends OutputFormat<?, ?>> getOutputFormatClass() throws ClassNotFoundException {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public Class<? extends Partitioner<?, ?>> getPartitionerClass() throws ClassNotFoundException {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public RawComparator<?> getSortComparator() {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public String getJar() {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public RawComparator<?> getGroupingComparator() {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public boolean getJobSetupCleanupNeeded() {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     public boolean getTaskCleanupNeeded() {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public boolean getProfileEnabled() {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public String getProfileParams() {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     public IntegerRanges getProfileTaskRange(boolean isMap) {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public String getUser() {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public boolean getSymlink() {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public Path[] getArchiveClassPaths() {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public URI[] getCacheArchives() throws IOException {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public URI[] getCacheFiles() throws IOException {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public Path[] getLocalCacheArchives() throws IOException {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public Path[] getLocalCacheFiles() throws IOException {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public Path[] getFileClassPaths() {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public String[] getArchiveTimestamps() {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public String[] getFileTimestamps() {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public int getMaxMapAttempts() {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public int getMaxReduceAttempts() {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public void progress() {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public InputSplit getInputSplit() {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public RawComparator<?> getCombinerKeyGroupingComparator() {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     public boolean userClassesTakesPrecedence() {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 }

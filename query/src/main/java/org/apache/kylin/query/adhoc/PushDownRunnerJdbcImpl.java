@@ -19,7 +19,7 @@
 package org.apache.kylin.query.adhoc;
 
 import com.google.common.collect.Maps;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.kylin.common.KylinConfig;
 import org.apache.kylin.common.util.DBUtils;
 import org.apache.kylin.metadata.querymeta.SelectedColumnMeta;

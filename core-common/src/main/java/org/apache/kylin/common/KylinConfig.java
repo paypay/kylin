@@ -20,7 +20,7 @@ package org.apache.kylin.common;
 
 import com.google.common.base.Preconditions;
 import org.apache.commons.io.IOUtils;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.kylin.common.restclient.RestClient;
 import org.apache.kylin.common.threadlocal.InternalThreadLocal;
 import org.apache.kylin.common.util.ClassUtil;

@@ -43,7 +43,7 @@ import java.util.NoSuchElementException;
 import java.util.TreeMap;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.commons.lang.NotImplementedException;
+import org.apache.commons.lang3.NotImplementedException;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.Cell;
 import org.apache.hadoop.hbase.CellUtil;
@@ -638,7 +638,7 @@ public class MockHTable implements Table {
      */
     @Override
     public Result increment(Increment increment) throws IOException {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     /**
@@ -664,28 +664,28 @@ public class MockHTable implements Table {
 
     @Override
     public CoprocessorRpcChannel coprocessorService(byte[] row) {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
 
     }
 
     @Override
     public <T extends Service, R> Map<byte[], R> coprocessorService(Class<T> service, byte[] startKey, byte[] endKey,
             Batch.Call<T, R> callable) throws ServiceException, Throwable {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
 
     }
 
     @Override
     public <T extends Service, R> void coprocessorService(Class<T> service, byte[] startKey, byte[] endKey,
             Batch.Call<T, R> callable, Batch.Callback<R> callback) throws ServiceException, Throwable {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
 
     }
 
     @Override
     public <R extends Message> Map<byte[], R> batchCoprocessorService(Descriptors.MethodDescriptor methodDescriptor,
             Message request, byte[] startKey, byte[] endKey, R responsePrototype) throws ServiceException, Throwable {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
 
     }
 
@@ -693,14 +693,14 @@ public class MockHTable implements Table {
     public <R extends Message> void batchCoprocessorService(Descriptors.MethodDescriptor methodDescriptor,
             Message request, byte[] startKey, byte[] endKey, R responsePrototype, Batch.Callback<R> callback)
             throws ServiceException, Throwable {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
 
     }
 
     //@Override  (only since 0.98.8)
     public boolean checkAndMutate(byte[] row, byte[] family, byte[] qualifier, CompareFilter.CompareOp compareOp,
             byte[] value, RowMutations mutation) throws IOException {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
 
     }
 
