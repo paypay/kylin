@@ -18,7 +18,7 @@
 
 package org.apache.kylin.storage.jdbc;
 
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.kylin.common.KylinConfig;
 import org.apache.kylin.common.StorageURL;
 import org.apache.kylin.common.persistence.JDBCConnectionManager;

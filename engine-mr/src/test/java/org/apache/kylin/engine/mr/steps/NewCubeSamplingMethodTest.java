@@ -25,7 +25,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.Set;
 
-import org.apache.commons.lang.RandomStringUtils;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.kylin.common.util.ByteArray;
 import org.apache.kylin.common.util.Bytes;
 import org.apache.kylin.measure.hllc.HLLCounter;

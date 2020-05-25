@@ -27,7 +27,7 @@ import org.apache.commons.compress.archivers.ArchiveStreamFactory;
 import org.apache.commons.compress.archivers.examples.Archiver;
 import org.apache.commons.compress.archivers.examples.Expander;
 import org.apache.commons.compress.archivers.zip.ZipFile;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

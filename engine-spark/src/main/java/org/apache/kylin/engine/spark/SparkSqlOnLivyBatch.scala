@@ -19,7 +19,7 @@ package org.apache.kylin.engine.spark
 
 import java.util.Locale
 
-import org.apache.commons.lang.StringUtils
+import org.apache.commons.lang3.StringUtils
 import org.apache.spark.internal.Logging
 import org.apache.spark.sql.SparkSession
 

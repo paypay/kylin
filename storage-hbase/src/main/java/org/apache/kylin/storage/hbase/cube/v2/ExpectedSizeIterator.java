@@ -23,7 +23,7 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.commons.lang.NotImplementedException;
+import org.apache.commons.lang3.NotImplementedException;
 import org.apache.kylin.gridtable.GTScanRequest;
 
 import com.google.common.base.Throwables;
@@ -81,7 +81,7 @@ class ExpectedSizeIterator implements Iterator<byte[]> {
 
     @Override
     public void remove() {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     public void append(byte[] data) {

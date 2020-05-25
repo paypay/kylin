@@ -23,7 +23,7 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Locale;
 
-import org.apache.commons.lang.time.FastDateFormat;
+import org.apache.commons.lang3.time.FastDateFormat;
 import org.apache.kylin.common.KylinVersion;
 import org.apache.kylin.common.util.RandomUtil;
 

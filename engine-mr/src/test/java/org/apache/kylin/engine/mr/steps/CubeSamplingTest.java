@@ -21,7 +21,7 @@ package org.apache.kylin.engine.mr.steps;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.commons.lang.RandomStringUtils;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.kylin.common.util.Bytes;
 import org.apache.kylin.measure.hllc.HLLCounter;
 import org.junit.Before;

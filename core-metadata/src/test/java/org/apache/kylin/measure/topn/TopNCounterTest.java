@@ -33,7 +33,7 @@ import java.util.List;
 import java.util.Map;
 
 import org.apache.commons.io.FileUtils;
-import org.apache.commons.lang.RandomStringUtils;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.commons.math3.distribution.ZipfDistribution;
 import org.apache.kylin.common.util.Pair;
 import org.junit.Ignore;

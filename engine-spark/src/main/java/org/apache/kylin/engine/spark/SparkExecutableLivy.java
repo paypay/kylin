@@ -17,7 +17,7 @@
  */
 package org.apache.kylin.engine.spark;
 
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.hadoop.fs.Path;
 import org.apache.kylin.common.KylinConfig;
 import org.apache.kylin.common.livy.LivyRestBuilder;

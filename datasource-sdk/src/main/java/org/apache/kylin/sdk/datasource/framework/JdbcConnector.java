@@ -27,7 +27,7 @@ import java.util.regex.Pattern;
 
 import javax.sql.rowset.CachedRowSet;
 
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.kylin.sdk.datasource.adaptor.AbstractJdbcAdaptor;
 import org.apache.kylin.sdk.datasource.framework.conv.ConvMaster;
 import org.apache.kylin.sdk.datasource.framework.conv.DefaultConfiguer;

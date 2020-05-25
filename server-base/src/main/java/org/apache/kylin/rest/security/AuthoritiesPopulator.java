@@ -22,8 +22,8 @@ import java.util.HashSet;
 import java.util.Locale;
 import java.util.Set;
 
-import org.apache.commons.lang.ArrayUtils;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.ArrayUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.kylin.rest.constant.Constant;
 import org.springframework.ldap.core.ContextSource;
 import org.springframework.security.core.GrantedAuthority;
