@@ -157,7 +157,6 @@
                                     <include>org.apache.kylin:kylin-core-cube</include>
                                     <include>org.roaringbitmap:RoaringBitmap</include>
                                     <include>com.tdunning:t-digest</include>
-                                    <include>com.tdunning:t-digest</include>
                                 </includes>
                             </artifactSet>
                             <relocations>
